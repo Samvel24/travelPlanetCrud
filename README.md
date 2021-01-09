@@ -1,6 +1,6 @@
 # Travel reservation management system
  
-version: v1.1.1
+version: v1.1.2
  
 Travel reservation management system (Sistema adminsitrador de reservas de viajes usando las tecnologias Laravel y Auth0)
  
@@ -22,7 +22,7 @@ Travel reservation management system (Sistema adminsitrador de reservas de viaje
         sudo chown -R $USER:www-data bootstrap/cache;
         chmod -R 775 bootstrap/cache;
 	    ```
-    4. Set `APP_KEY=base64:JXJSPunrAsJnWEZrwtsrSYWp29CqkgWb/9n9SXIBzT0=` at `.env`.
+    4. Set `APP_KEY=base64:7XouBv3l67xQR3hT+/1d78P1c+wqNOAjOHIhfd1/hAU=` at `.env`.
 	5. Run `composer install`.
 	6. Run `php artisan storage:link`. 
 	7. Run `php artisan migrate`. 	
@@ -41,4 +41,4 @@ Travel reservation management system (Sistema adminsitrador de reservas de viaje
  
 ***
 
-2020 [Samuel Ramirez](https://github.com/Samvel24/)
+2021 [Samuel Ramirez](https://github.com/Samvel24/)
